@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/styles/tailwind.css -o ./dist/styles.css --minify",
-    "dev": "tailwindcss -i ./src/styles/tailwind.css -o ./dist/styles.css --watch"
-  }
-}
+      "build": "tailwindcss -i ./lesson/src/input.css -o ./lesson/build/output.css --minify",
+      "dev": "tailwindcss -i ./lesson/src/input.css -o ./lesson/build/output.css --watch"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
