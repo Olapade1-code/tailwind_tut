@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "build": "webpack --config webpack.config.js"
-},
+    "build": "tailwindcss -i ./src/styles/tailwind.css -o ./dist/styles.css --minify",
+    "dev": "tailwindcss -i ./src/styles/tailwind.css -o ./dist/styles.css --watch"
+  }
+}
   "keywords": [],
   "author": "",
   "license": "ISC",
