@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "scripts": {
+      "build": "tailwindcss -i ./lesson/src/input.css -o ./lesson/build/output.css --minify",
+      "dev": "tailwindcss -i ./lesson/src/input.css -o ./lesson/build/output.css --watch"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
